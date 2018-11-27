@@ -1,0 +1,131 @@
+body
+{
+	margin:0;
+}
+.header
+{
+	width:1380px;
+	background-color:#ce0505;
+	height:82px;
+}
+
+span
+{
+	color:white;
+	font-size:25px;
+	margin-bottom:25px;
+}
+.header .sp1
+{
+	display: inline-block;
+	margin:0;
+	margin-bottom: -14px;
+	font-weight:bolder;
+}
+.header .sp2
+{
+	font-size:40;
+	font-weight:bold;
+	color:white;
+	margin-left:15px;
+	display:inline;
+}
+.container
+{
+	width:1380px;
+}
+.container2
+{
+	direction:rtl;
+}
+#img1
+{
+	width:1380; 
+	height:550; 
+	position:absolute;
+}
+#form1
+{
+	position:absolute;
+}
+#form1 select
+{
+	width:400px; 
+	height:50px;
+	direction:rtl;
+	margin:40px 0 0 400;
+	font-size:40px;
+}
+#form1 select option
+{
+	font-size:20px;
+}
+#butt1
+{
+	width:400px; 
+	height:50px;
+	margin:40px 0 0 400;
+	font-size:40px;
+	background-color:#07b9f3;
+	border-radius:50px;
+	border:2px solid #3e0f0f;
+}
+div .head
+{
+	color: white;
+    background-color: red;
+    margin-right: 454px;
+    text-shadow: 0 0 black;
+    display: inline-block;
+    padding: 25px;
+    font-size: 35px;
+}
+table
+{
+    border:0px; 
+    width:50%;
+	margin-right:25%;
+    
+}
+thead
+{
+   background-color: red;
+   text-align:center;
+}
+thead tr td
+{
+   padding:20px;
+}
+tbody
+{
+  background-color: gray;
+  text-align:center;
+}
+tbody tr td
+{
+   padding:15px;
+} 
+#error
+{
+	display:block;
+	direction:rtl;
+	text-align:right;
+	font-size:25px;
+	color:red;
+}
+#home
+{
+	direction: rtl;
+    text-decoration: none;
+    color: #03f77b;
+    font-size: 30px;
+    background-color: blue;
+    border-radius: 10px;
+    font-weight: bold;
+    padding:10px;
+	margin-right:45%;
+}
+#home:hover
+{
+   background-color: red;
+}
